@@ -1,0 +1,19 @@
+package com.poc.map;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class MapComputeDemo {
+	
+	public static void main(String[] args) {
+		
+		Map<Integer,String> map=new HashMap<Integer, String>();
+		map.put(1, "Java");
+		map.put(2, "Java");
+		System.out.println("Original map"+map);
+		map.compute(1,(111111k1,111111111111111111 ))
+
+
+	}
+
+}

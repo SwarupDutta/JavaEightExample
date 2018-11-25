@@ -1,0 +1,5 @@
+package com.poc.map.dto;
+
+public class Employee {
+
+}

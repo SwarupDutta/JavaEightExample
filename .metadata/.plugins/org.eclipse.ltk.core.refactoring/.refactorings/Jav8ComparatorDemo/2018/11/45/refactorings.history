@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;JavaSevenComparatorDemo.java&apos; to &apos;com.poc.JavaSevenComparatorDemo.java&apos;&#x0D;&#x0A;- Original project: &apos;Jav8ComparatorDemo&apos;&#x0D;&#x0A;- Destination element: &apos;com.poc.JavaSevenComparatorDemo.java&apos;&#x0D;&#x0A;- Original element: &apos;com.poc.JavaSevenComparatorDemo.java&apos;" description="Copy compilation unit" destination="/src&lt;com.poc{JavaSevenComparatorDemo.java" element1="/src&lt;com.poc{JavaSevenComparatorDemo.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1541492642273" units="1" version="1.0"/>
+</session>
