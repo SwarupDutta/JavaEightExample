@@ -30,13 +30,7 @@ Returns:true if there is a value present, otherwise false
 		}
 		
 		System.out.println("UNDERSTANDING IFPRESENT");
-/*
- * 
- * 
 
-If a value is present, invoke the specified consumer with the value,otherwise do nothing.
-Parameters:consumer block to be executed if a value is presentThrows:NullPointerException - if value is present and consumer isnull
- */
 
 		userOptional.ifPresent(value -> {
 			System.out.println("Value found - " + value.getId());

@@ -16,11 +16,6 @@ public class OptionalTest {
 
 		//Optional<User> userOptional1 = Optional.ofNullable(null);
 		System.out.println("UNDERSTANDING ISPRESENT");
-		/*
-		 * 
-		 * Return true if there is a value present, otherwise false.
-Returns:true if there is a value present, otherwise false
-		 */
 		if(userOptional.isPresent()) {
 			// value is present inside Optional
 			System.out.println("Value found - " + userOptional.get().getId());
@@ -30,13 +25,7 @@ Returns:true if there is a value present, otherwise false
 		}
 		
 		System.out.println("UNDERSTANDING IFPRESENT");
-/*
- * 
- * 
 
-If a value is present, invoke the specified consumer with the value,otherwise do nothing.
-Parameters:consumer block to be executed if a value is presentThrows:NullPointerException - if value is present and consumer isnull
- */
 
 		userOptional.ifPresent(value -> {
 			System.out.println("Value found - " + value.getId());
@@ -62,19 +51,11 @@ Parameters:consumer block to be executed if a value is presentThrows:NullPointer
 	public static void main(String[] args) {
 
 		User user = new User("667290", "Rajeev Kumar Singh");
-		/*
-		 * Returns an Optional with the specified present non-null value.
-Type Parameters:<T> the class of the valueParameters:value the value to be present, which must be non-nullReturns:an Optional with the value presentThrows:NullPointerException - if value is null
-		 */
 		Optional<User> userOptional = Optional.of(user);
 		System.out.println("USING METHOD OF");
 		checkOptional(userOptional);
 
-		/*
-		 * 
-		 * Returns an Optional describing the specified value, if non-null,otherwise returns an empty Optional.
-Type Parameters:<T> the class of the valueParameters:value the possibly-null value to describeReturns:an Optional with a present value if the specified valueis non-null, otherwise an empty Optional
-		 */
+
 		Optional<User> userOptional1 = Optional.ofNullable(null);
 		System.out.println("USING METHOD OFNULLABLE AND SENDING NULL AS AN ARGUMENT");
 
